@@ -43,3 +43,16 @@ for(var i =0 ; i< arr.length;arr++){
 },1000)
 }
 ```
+> Question 4
+```javascript
+let obj = {
+    a:0,
+    b:0
+};
+
+obj = {
+    a:2,
+    b: obj.a
+};
+console.log(obj);
+```
