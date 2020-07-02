@@ -56,3 +56,10 @@ obj = {
 };
 console.log(obj);
 ```
+
+> Question 5
+
+```javascript
+['123', '456', '789', '10'].map(parseInt);
+```
+[Explanation](https://medium.com/dailyjs/parseint-mystery-7c4368ef7b21)
